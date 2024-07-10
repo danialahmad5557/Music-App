@@ -10,13 +10,13 @@ let mysound = document.getElementById("mysound");
                 // music and change the image
                 mysound.play();
                 icon.src =
-"media/pause.png";
+"pause.png";
             } else {
 
                 // If playing then pause the
                 // music and change the image
                 mysound.pause();
                 icon.src =
-                "media/play.png";
+                "play.png";
             }
         }
